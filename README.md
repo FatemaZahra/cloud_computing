@@ -123,7 +123,7 @@ server {
         }
 }
 ```
-Run command
+Run commands
 
 `sudo cp -f proxy_file /etc/nginx/sites-available/default`
 
