@@ -144,13 +144,18 @@ Run commands
 
 - Go to Connect to Instance and copy the Public IP address. Paste it on browser and the app should be working.
 
-## To connect the app to the DB
-
-- Create an instance of the DB following the steps for the app
-- Add Port 27017 to the inbound rules of in the DB instance
-- Once the instance is created, Go to Connect and
 
 ![Screenshot 2022-08-18 at 18 00 49](https://user-images.githubusercontent.com/102330725/185482425-b269ba7a-7670-4021-b94e-38499100220e.png)
+
+## To connect the app to the DB
+
+- Create an instance of the DB following the same steps as for the app
+- Add Port 27017 to the inbound rules of in the DB instance
+
+<img width="1184" alt="Screenshot 2022-08-19 at 17 18 38" src="https://user-images.githubusercontent.com/102330725/185665254-30e0a81f-33f8-48e6-ae92-f470d936474c.png">
+
+- Once the instance is created, Go to Connect --> SSH Client and copy the code. Run the copied code in the `~/.ssh` folder in the terminal.
+<img width="798" alt="Screenshot 2022-08-19 at 17 21 14" src="https://user-images.githubusercontent.com/102330725/185665492-1bc64476-0c72-440e-9411-4cb20108f9ff.png">
 
 ## Cloud Computing and various Services
 
