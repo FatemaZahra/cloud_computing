@@ -140,6 +140,24 @@ Run commands
 
 ![Screenshot 2022-08-18 at 18 00 49](https://user-images.githubusercontent.com/102330725/185482425-b269ba7a-7670-4021-b94e-38499100220e.png)
 
+## Cloud Computing and various Services
+![Slide1](https://user-images.githubusercontent.com/102330725/185626395-b3389d46-05e1-441d-b6ba-07f6ea7cc75d.jpg)
+
+![Slide2](https://user-images.githubusercontent.com/102330725/185626437-8386188e-2851-4146-8496-3c24c27d292f.jpg)
+
+![Slide3](https://user-images.githubusercontent.com/102330725/185626577-28d81745-c2aa-4679-a564-2c91542303c0.jpg)
+
+![Slide4](https://user-images.githubusercontent.com/102330725/185626626-a5b5974c-2778-40f1-bb25-7745d2c7225f.jpg)
+
+![Slide5](https://user-images.githubusercontent.com/102330725/185626668-ec3d58b7-fd21-4dcb-808d-d1b0c83a3681.jpg)
+
+![Slide6](https://user-images.githubusercontent.com/102330725/185626720-18c8c273-3d25-45b5-b174-a74a11925c31.jpg)
+
+![Slide7](https://user-images.githubusercontent.com/102330725/185626755-7ff09fc1-0f33-45f3-812d-bb65a271d8ea.jpg)
+
+![Slide8](https://user-images.githubusercontent.com/102330725/185626820-f4ef177a-682c-48ee-8a35-73f41e49b763.jpg)
+
+
 
 
 
