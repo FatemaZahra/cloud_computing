@@ -154,8 +154,45 @@ Run commands
 
 <img width="1184" alt="Screenshot 2022-08-19 at 17 18 38" src="https://user-images.githubusercontent.com/102330725/185665254-30e0a81f-33f8-48e6-ae92-f470d936474c.png">
 
-- Once the instance is created, Go to Connect --> SSH Client and copy the code. Run the copied code in the `~/.ssh` folder in the terminal.
+- Once the instance is created, Go to Connect --> SSH Client and copy the code. Run the copied code in the `~/.ssh` folder in the terminal. This should land into the db machine
 <img width="798" alt="Screenshot 2022-08-19 at 17 21 14" src="https://user-images.githubusercontent.com/102330725/185665492-1bc64476-0c72-440e-9411-4cb20108f9ff.png">
+
+## Configure MongoDB
+
+Run the commands
+
+- `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
+- `echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list`
+- `sudo apt-get update -y`
+- `sudo apt-get upgrade -y`
+- `sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
+- Check the status of mongodb `systemctl status mongod`
+- If not active, run `sudo systemctl restart mongod` and `sudo systemctl enable mongod` and check the status again.
+
+## Edit mongod.conf file
+
+- Run `cd /etc` then `ls` and `sudo nano mongod.conf`
+- Go to network interface and change bindip to `0.0.0.0`
+- `cat mongod.conf` to check
+
+## Restart DB
+
+- Run commands: `sudo systemctl restart mongod` `sudo systemctl enable mongod` `sudo systemctl status mongod`
+
+# Create Env variable and Relaunch the app
+
+- Go back to the app machine again
+- Create environment variable `export DB_HOST=mongodb://private_ip_of_db:27017/posts`
+- To check `printenv DB_HOST`
+- `cd` into the app
+- `npm start`
+- The post and fibonacci page should now be working
+<img width="826" alt="Screenshot 2022-08-19 at 17 42 59" src="https://user-images.githubusercontent.com/102330725/185667211-ef7651b8-03a9-41fc-ad96-06c2ef99b414.png">
+
+*Note: If needed follow steps for seeding in the app machine*
+- `cd seeds`
+- `node seed.js`
+- `npm start`
 
 ## Cloud Computing and various Services
 
