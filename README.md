@@ -73,6 +73,16 @@ sudo apt-get upgrade -y
 sudo apt-get install nginx -y
 sudo systemctl status nginx
 
+```
+## Migrate files from local host to remote host
+
+`scp -i [key_name] -r [file_source_path] [file_destination_path]`
+
+Run command `sudo scp -i ~/.ssh/eng122.pem -r app/ ubuntu@54.194.205.145:~/app/`
+
+## Install node dependencies
+
+```
 # install nodejs
 sudo apt-get install nodejs -y
 
@@ -94,13 +104,8 @@ sudo apt-get update -y
 
 #upgrade
 sudo apt-get upgrade -y
-
 ```
-## Migrate files from local host to remote host
 
-`scp -i [key_name] -r [file_source_path] [file_destination_path]`
-
-Run command `sudo scp -i ~/.ssh/eng122.pem -r app/ ubuntu@54.194.205.145:~/app/`
 
 ## Configure reverse proxy
 
