@@ -17,7 +17,6 @@ Requirements for a machine
 
   ![Screenshot 2022-08-18 at 14 54 54](https://user-images.githubusercontent.com/102330725/185412693-c6258b14-15be-4082-9943-eeade718f781.png)
 
-
 ## Step up AWS EC2 service
 
 1. Search for EC2 service on AWS
@@ -49,13 +48,14 @@ Requirements for a machine
 ![Screenshot 2022-08-18 at 17 58 59](https://user-images.githubusercontent.com/102330725/185472674-fea0cc45-2692-4108-8b90-87e9d26d7119.png)
 
 8. Configure security groups
+
 - HTTP
 - SSH
 - Port 3000
 
 ![Screenshot 2022-08-18 at 17 59 51](https://user-images.githubusercontent.com/102330725/185473103-0a2adf14-6712-447d-844d-d4612e01f190.png)
 
-**In the terminal**, navigate to `~/.ssh`, run `chmod 400 keyname` to ensure that the key can't be viewed publicly. 
+**In the terminal**, navigate to `~/.ssh`, run `chmod 400 keyname` to ensure that the key can't be viewed publicly.
 Copy the command below from Connect to Instance --> SSH Client, and run in the SSH folder in terminal.
 
 ![Screenshot 2022-08-18 at 18 00 41](https://user-images.githubusercontent.com/102330725/185477425-77a95fe3-c51e-4a3f-b795-e71c207eb320.png)
@@ -74,6 +74,7 @@ sudo apt-get install nginx -y
 sudo systemctl status nginx
 
 ```
+
 ## Migrate files from local host to remote host
 
 `scp -i [key_name] -r [file_source_path] [file_destination_path]`
@@ -106,7 +107,6 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
-
 ## Configure reverse proxy
 
 - Create proxy_file
@@ -118,7 +118,7 @@ server {
 
         root /var/www/html;
 
-       
+
         index index.html index.htm index.nginx-debian.html;
 
         server_name _;
@@ -128,6 +128,7 @@ server {
         }
 }
 ```
+
 Run commands
 
 `sudo cp -f proxy_file /etc/nginx/sites-available/default`
@@ -143,9 +144,16 @@ Run commands
 
 - Go to Connect to Instance and copy the Public IP address. Paste it on browser and the app should be working.
 
+## To connect the app to the DB
+
+- Create an instance of the DB following the steps for the app
+- Add Port 27017 to the inbound rules of in the DB instance
+- Once the instance is created, Go to Connect and
+
 ![Screenshot 2022-08-18 at 18 00 49](https://user-images.githubusercontent.com/102330725/185482425-b269ba7a-7670-4021-b94e-38499100220e.png)
 
 ## Cloud Computing and various Services
+
 ![Slide1](https://user-images.githubusercontent.com/102330725/185626395-b3389d46-05e1-441d-b6ba-07f6ea7cc75d.jpg)
 
 ![Slide2](https://user-images.githubusercontent.com/102330725/185626437-8386188e-2851-4146-8496-3c24c27d292f.jpg)
@@ -161,9 +169,3 @@ Run commands
 ![Slide7](https://user-images.githubusercontent.com/102330725/185626755-7ff09fc1-0f33-45f3-812d-bb65a271d8ea.jpg)
 
 ![Slide8](https://user-images.githubusercontent.com/102330725/185626820-f4ef177a-682c-48ee-8a35-73f41e49b763.jpg)
-
-
-
-
-
-
