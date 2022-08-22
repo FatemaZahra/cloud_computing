@@ -17,6 +17,12 @@ Requirements for a machine
 
  <img width="844" alt="Screenshot 2022-08-19 at 17 53 35" src="https://user-images.githubusercontent.com/102330725/185669205-22c7ef2e-f094-4099-be8a-2504dfffe3e4.png">
 
+## Benefits of Cloud Computing
+
+- Ease of use
+- Cost Effectiveness
+- Robustness
+- Flexibility
 
 ## Step up AWS EC2 service
 
@@ -145,7 +151,6 @@ Run commands
 
 - Go to Connect to Instance and copy the Public IP address. Paste it on browser and the app should be working.
 
-
 ![Screenshot 2022-08-18 at 18 00 49](https://user-images.githubusercontent.com/102330725/185482425-b269ba7a-7670-4021-b94e-38499100220e.png)
 
 ## To connect the app to the DB
@@ -156,7 +161,7 @@ Run commands
 <img width="1184" alt="Screenshot 2022-08-19 at 17 18 38" src="https://user-images.githubusercontent.com/102330725/185665254-30e0a81f-33f8-48e6-ae92-f470d936474c.png">
 
 - Once the instance is created, Go to Connect --> SSH Client and copy the code. Run the copied code in the `~/.ssh` folder in the terminal. This should land into the db machine
-<img width="798" alt="Screenshot 2022-08-19 at 17 21 14" src="https://user-images.githubusercontent.com/102330725/185665492-1bc64476-0c72-440e-9411-4cb20108f9ff.png">
+  <img width="798" alt="Screenshot 2022-08-19 at 17 21 14" src="https://user-images.githubusercontent.com/102330725/185665492-1bc64476-0c72-440e-9411-4cb20108f9ff.png">
 
 ## Configure MongoDB
 
@@ -188,9 +193,10 @@ Run the commands
 - `cd` into the app
 - `npm start`
 - The post and fibonacci page should now be working
-<img width="826" alt="Screenshot 2022-08-19 at 17 42 59" src="https://user-images.githubusercontent.com/102330725/185667211-ef7651b8-03a9-41fc-ad96-06c2ef99b414.png">
+  <img width="826" alt="Screenshot 2022-08-19 at 17 42 59" src="https://user-images.githubusercontent.com/102330725/185667211-ef7651b8-03a9-41fc-ad96-06c2ef99b414.png">
 
-*Note: If needed follow steps for seeding in the app machine*
+_Note: If needed follow steps for seeding in the app machine_
+
 - `cd seeds`
 - `node seed.js`
 - `npm start`
