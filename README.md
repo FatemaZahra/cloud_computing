@@ -227,7 +227,7 @@ _Note: If needed follow steps for seeding in the app machine_
 4. On Configure Instance Details page, after adding Number of Instances, Network, Subnet, Auto-assign Public IP, move on to Additional Details
 
    - Select User Data **As Text**
-   - Add the script in the box provided
+   - Add the script in the box provided. First line of script should always be `#!/bin/bash`
 
 ![Screenshot 2022-08-22 at 12 14 27](https://user-images.githubusercontent.com/102330725/185910423-b62916e0-84a6-4c03-bc1b-ce59c7c8edd1.png)
 
