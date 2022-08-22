@@ -236,3 +236,8 @@ _Note: If needed follow steps for seeding in the app machine_
 7. Select an existing security group
 8. Review and Launch the app
 9. Check the public IP on the browser and the app should be working
+
+## Edit user data
+
+![Screenshot 2022-08-22 at 12 29 29](https://user-images.githubusercontent.com/102330725/185911291-4488f327-49a2-4120-af45-abe75beed89c.png)
+
