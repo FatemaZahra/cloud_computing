@@ -15,7 +15,7 @@ Requirements for a machine
 - Firewall - Security tool
 - Quality
 
- <img width="844" alt="Screenshot 2022-08-19 at 17 53 35" src="https://user-images.githubusercontent.com/102330725/185669205-22c7ef2e-f094-4099-be8a-2504dfffe3e4.png">
+![Screenshot 2022-08-22 at 18 04 51](https://user-images.githubusercontent.com/102330725/185978644-3e085196-7bac-4ae0-8ac1-235e756cfb63.png)
 
 ## Benefits of Cloud Computing
 
