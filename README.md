@@ -218,3 +218,19 @@ _Note: If needed follow steps for seeding in the app machine_
 ![Slide7](https://user-images.githubusercontent.com/102330725/185626755-7ff09fc1-0f33-45f3-812d-bb65a271d8ea.jpg)
 
 ![Slide8](https://user-images.githubusercontent.com/102330725/185626820-f4ef177a-682c-48ee-8a35-73f41e49b763.jpg)
+
+## Add user data to AWS
+
+1. Create a new instance
+2. Choose Ubuntu Server as AMI Machine as previously done
+3. Select t2 micro as Instance Type
+4. On Configure Instance Details page, after adding Number of Instances, Network, Subnet, Auto-assign Public IP, move on to Additional Details
+
+   - Select User Data **As Text**
+   - Add the script in the box provided
+
+5. Add Storage
+6. Add Tags
+7. Select an existing security group
+8. Review and Launch the app
+9. Check the public IP on the browser and the app should be working
