@@ -284,3 +284,8 @@ Once created all the AMI are listed under Images --> AMIs
 8. Copy the IP address of the instance created from the image and paste on browser. The app should be working.
 
 ![Screenshot 2022-08-22 at 17 00 38](https://user-images.githubusercontent.com/102330725/185966195-a5aa3d75-0d17-4df3-9f39-7b64e44a1813.png)
+
+*Note: If the app doesn't work Select instance --> Connect and Connect to instance, copy the Example, login as ubuntu and troubleshoot/relaunch the app.
+
+![Screenshot 2022-08-22 at 17 37 16](https://user-images.githubusercontent.com/102330725/185977066-c393737e-5688-4e91-a29f-2fa6e7ce1954.png)
+
