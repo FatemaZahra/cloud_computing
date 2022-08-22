@@ -229,6 +229,8 @@ _Note: If needed follow steps for seeding in the app machine_
    - Select User Data **As Text**
    - Add the script in the box provided
 
+![Screenshot 2022-08-22 at 12 14 27](https://user-images.githubusercontent.com/102330725/185910423-b62916e0-84a6-4c03-bc1b-ce59c7c8edd1.png)
+
 5. Add Storage
 6. Add Tags
 7. Select an existing security group
