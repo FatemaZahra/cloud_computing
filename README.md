@@ -243,3 +243,44 @@ Go to Actions --> Instance Settings --> Edit user data
 
 ![Screenshot 2022-08-22 at 16 37 18](https://user-images.githubusercontent.com/102330725/185961576-2778e4d6-c96c-400f-9a1e-3c55daaa16a4.png)
 
+## Create an AMI
+
+1. Select the instance for which an image has to be created. Go to Actions --> Image and Template --> Create Image
+
+![Screenshot 2022-08-22 at 16 46 25](https://user-images.githubusercontent.com/102330725/185963488-38aa00a8-723e-47ea-a57b-7194d4c4cf3f.png)
+
+2. Provide a name and a description and click on Create Image
+
+![Screenshot 2022-08-22 at 16 48 45](https://user-images.githubusercontent.com/102330725/185963712-66f32143-1c2c-4b4f-a0f3-4cee54eea055.png)
+
+Once created all the AMI are listed under Images --> AMIs
+![Screenshot 2022-08-22 at 16 49 58](https://user-images.githubusercontent.com/102330725/185964164-fa4038cb-12d7-4a2f-aa63-7221596cbe15.png)
+
+## Launch an instance from AMI
+
+1. Select the AMI and click on launch instance from AMI
+
+![Screenshot 2022-08-22 at 16 52 32](https://user-images.githubusercontent.com/102330725/185964658-8faf11db-992d-4f1c-9f3d-984c9c2e2c13.png)
+
+2. Choose an instance type
+
+![Screenshot 2022-08-22 at 16 53 45](https://user-images.githubusercontent.com/102330725/185964790-ea21e47f-115c-4d8c-bae6-915303e28313.png)
+
+3. Configure Instance Details, we do not need to provide user data as its already done when creating the first instance.
+![Screenshot 2022-08-22 at 16 54 16](https://user-images.githubusercontent.com/102330725/185964900-ce0d9237-579a-4a62-9dbd-35cb31d0778e.png)
+
+4. Add Storage
+![Screenshot 2022-08-22 at 16 55 28](https://user-images.githubusercontent.com/102330725/185965126-65b4abca-4e9a-4262-8a2c-de044d59a1af.png)
+
+5. Add tags
+![Screenshot 2022-08-22 at 16 56 04](https://user-images.githubusercontent.com/102330725/185965246-ed3b2749-cd35-4001-a005-42bee47776c9.png)
+
+6. Select an existing security group
+
+![Screenshot 2022-08-22 at 16 56 42](https://user-images.githubusercontent.com/102330725/185965412-e232ef89-5f3e-4a90-9e6d-c0b499819635.png)
+
+7. Review and Launch, then provide the key.
+
+8. Copy the IP address of the instance created from the image and paste on browser. The app should be working.
+
+![Screenshot 2022-08-22 at 17 00 38](https://user-images.githubusercontent.com/102330725/185966195-a5aa3d75-0d17-4df3-9f39-7b64e44a1813.png)
