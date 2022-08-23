@@ -339,3 +339,12 @@ s3_location = {'LocationConstraint':'eu-west-1'}
 s3client.create_bucket(Bucket="bucket-name",CreateBucketConfiguration=s3_location)
 ```
 - Run file
+
+## Upload a file to the s3 bucket
+
+```import boto3
+s3 = boto3.resource('s3')
+s3.meta.client.upload_file('/home/ubuntu/download/test.txt','eng122-fatema-boto3-bucket','test.txt')
+```
+
+
