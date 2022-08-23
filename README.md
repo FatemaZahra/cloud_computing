@@ -267,13 +267,13 @@ Once created all the AMI are listed under Images --> AMIs
 ![Screenshot 2022-08-22 at 16 53 45](https://user-images.githubusercontent.com/102330725/185964790-ea21e47f-115c-4d8c-bae6-915303e28313.png)
 
 3. Configure Instance Details, we do not need to provide user data as its already done when creating the first instance.
-![Screenshot 2022-08-22 at 16 54 16](https://user-images.githubusercontent.com/102330725/185964900-ce0d9237-579a-4a62-9dbd-35cb31d0778e.png)
+   ![Screenshot 2022-08-22 at 16 54 16](https://user-images.githubusercontent.com/102330725/185964900-ce0d9237-579a-4a62-9dbd-35cb31d0778e.png)
 
 4. Add Storage
-![Screenshot 2022-08-22 at 16 55 28](https://user-images.githubusercontent.com/102330725/185965126-65b4abca-4e9a-4262-8a2c-de044d59a1af.png)
+   ![Screenshot 2022-08-22 at 16 55 28](https://user-images.githubusercontent.com/102330725/185965126-65b4abca-4e9a-4262-8a2c-de044d59a1af.png)
 
 5. Add tags
-![Screenshot 2022-08-22 at 16 56 04](https://user-images.githubusercontent.com/102330725/185965246-ed3b2749-cd35-4001-a005-42bee47776c9.png)
+   ![Screenshot 2022-08-22 at 16 56 04](https://user-images.githubusercontent.com/102330725/185965246-ed3b2749-cd35-4001-a005-42bee47776c9.png)
 
 6. Select an existing security group
 
@@ -285,10 +285,14 @@ Once created all the AMI are listed under Images --> AMIs
 
 ![Screenshot 2022-08-22 at 17 00 38](https://user-images.githubusercontent.com/102330725/185966195-a5aa3d75-0d17-4df3-9f39-7b64e44a1813.png)
 
-*Note: If the app doesn't work Select instance --> Connect and Connect to instance, copy the Example, login as ubuntu and troubleshoot/relaunch the app.*
+_Note: If the app doesn't work Select instance --> Connect and Connect to instance, copy the Example, login as ubuntu and troubleshoot/relaunch the app._
 
 ![Screenshot 2022-08-22 at 17 37 16](https://user-images.githubusercontent.com/102330725/185977066-c393737e-5688-4e91-a29f-2fa6e7ce1954.png)
 
 # Disaster Recovery Plan (S3)
+
+The term cloud disaster recovery (cloud DR) refers to the strategies and services enterprises apply for the purpose of backing up applications, resources, and data into a cloud environment.
+
+Cloud DR helps protect corporate resources and ensure business continuity. If disaster hits, enterprises can restore data from backed up versions to either on-premise or cloud environments.
 
 ![Screenshot 2022-08-23 at 12 30 58](https://user-images.githubusercontent.com/102330725/186159671-f17b52c5-7dec-4be1-91ec-42cea24c19db.png)
