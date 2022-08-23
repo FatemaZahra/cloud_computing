@@ -296,3 +296,46 @@ The term cloud disaster recovery (cloud DR) refers to the strategies and service
 Cloud DR helps protect corporate resources and ensure business continuity. If disaster hits, enterprises can restore data from backed up versions to either on-premise or cloud environments.
 
 ![Screenshot 2022-08-23 at 12 30 58](https://user-images.githubusercontent.com/102330725/186159671-f17b52c5-7dec-4be1-91ec-42cea24c19db.png)
+
+## Creating S3 buckets
+
+1. SSH into an instance through the terminal
+2. Check the instance `uname -a`
+3. Update and upgrade before proceeding `sudo apt-get update -y` `sudo apt-get upgrade -y`
+4. Install python `sudo apt-get install python -y`
+5. Check the version `python --version`
+6. Install pip `sudo apt install python3-pip`
+7. Check version again, if the version is still not version 3, run command `alias python=python3`
+8. Install AWS CLI `sudo pip3 install awscli`
+9. Run command: `aws configure` to configure.
+10. To get the list of all s3 services run `aws s3 ls`
+11. To create an s3 bucket run: `aws s3 mb s3://bucket-name`
+
+#### Creating a file(object) in s3 bucket
+- To copy a file from localhost to s3
+- - Create a file in the machine `sudo nano test.txt`
+- - Use the command to copy it to the bucket `aws s3 cp test.txt s3://bucket-name`
+- To download a file from bucket to the machine
+- - `aws s3 cp s3://bucket-name/file-name.txt /home/ubuntu`
+
+## Using Boto3
+
+1. Install boto3 `pip3 install boto3`
+2. `pip install boto3[crt]`
+3. Configure aws if not configured already `aws configure`
+
+### Create an s3 bucket
+
+- Create a file with .py extension
+- Add code to create bucket
+```
+import boto3
+
+sess = boto3.Session(region_name="eu-west-1")
+
+s3client = sess.client('s3')
+
+s3_location = {'LocationConstraint':'eu-west-1'}
+s3client.create_bucket(Bucket="bucket-name",CreateBucketConfiguration=s3_location)
+```
+- Run file
