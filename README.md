@@ -340,11 +340,49 @@ s3client.create_bucket(Bucket="bucket-name",CreateBucketConfiguration=s3_locatio
 ```
 - Run file
 
-## Upload a file to the s3 bucket
+### Upload a file to the s3 bucket
+
+- Create a file with .py extension
+- Add code to upload an object
 
 ```import boto3
 s3 = boto3.resource('s3')
-s3.meta.client.upload_file('/home/ubuntu/download/test.txt','eng122-fatema-boto3-bucket','test.txt')
+s3.meta.client.upload_file('/home/ubuntu/test.txt','bucket-name','test.txt')
 ```
+- Run file
 
+### Download a file from s3 bucket
 
+- Create a file with .py extension
+- Add code to download an object
+
+```
+import boto3
+s3_client= boto3.client('s3')
+response = s3_client.download_file('bucket-name','file-name', 'destination/file-name')
+```
+- Run file
+
+### Delete a file from s3 bucket
+
+- Create a file with .py extension
+- Add code to delete an object
+
+```
+import boto3
+s3_client= boto3.client('s3')
+response = s3_client.delete_object(Bucket='bucket-name',Key='file-name')
+```
+- Run file
+
+### Delete s3 bucket
+
+- Create a file with .py extension
+- Add code to delete a bucket
+
+```
+import boto3
+s3_client= boto3.client('s3')
+response = s3_client.delete_bucket(Bucket='bucket-name')
+```
+- Run file
