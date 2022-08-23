@@ -289,3 +289,6 @@ Once created all the AMI are listed under Images --> AMIs
 
 ![Screenshot 2022-08-22 at 17 37 16](https://user-images.githubusercontent.com/102330725/185977066-c393737e-5688-4e91-a29f-2fa6e7ce1954.png)
 
+# Disaster Recovery Plan (S3)
+
+![Screenshot 2022-08-23 at 12 30 58](https://user-images.githubusercontent.com/102330725/186159671-f17b52c5-7dec-4be1-91ec-42cea24c19db.png)
