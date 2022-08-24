@@ -295,7 +295,8 @@ The term cloud disaster recovery (cloud DR) refers to the strategies and service
 
 Cloud DR helps protect corporate resources and ensure business continuity. If disaster hits, enterprises can restore data from backed up versions to either on-premise or cloud environments.
 
-![Screenshot 2022-08-23 at 12 30 58](https://user-images.githubusercontent.com/102330725/186159671-f17b52c5-7dec-4be1-91ec-42cea24c19db.png)
+![Screenshot 2022-08-24 at 10 33 49](https://user-images.githubusercontent.com/102330725/186384635-20d2429f-4a84-4f83-afeb-eb7b419e5661.png)
+
 
 ## Creating S3 buckets
 
