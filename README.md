@@ -289,7 +289,7 @@ _Note: If the app doesn't work Select instance --> Connect and Connect to instan
 
 ![Screenshot 2022-08-22 at 17 37 16](https://user-images.githubusercontent.com/102330725/185977066-c393737e-5688-4e91-a29f-2fa6e7ce1954.png)
 
-# Disaster Recovery Plan (S3)
+# Disaster Recovery Plan (DR)
 
 The term cloud disaster recovery (cloud DR) refers to the strategies and services enterprises apply for the purpose of backing up applications, resources, and data into a cloud environment.
 
