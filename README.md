@@ -387,3 +387,36 @@ s3_client= boto3.client('s3')
 response = s3_client.delete_bucket(Bucket='bucket-name')
 ```
 - Run file
+
+## To create a service to automate npm start
+
+- Run commands
+`cd /etc/systemd/system`
+- Create a file named `sudo nano npm.service` [servicename.service] and add the following
+- Add Script
+```
+[Unit]
+
+Description=Run the app
+
+
+
+[Service]
+
+User=ubuntu
+
+WorkingDirectory=/home/ubuntu/app
+
+ExecStart=/usr/bin/npm start
+
+Restart=always
+
+
+
+[Install]
+
+WantedBy=multi-user.target
+```
+- `sudo systemctl daemon-reload`
+- `sudo systemctl start npm.service`
+- `sudo systemctl enable npm.service`
