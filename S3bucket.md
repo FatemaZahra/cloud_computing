@@ -46,6 +46,6 @@
 8. Copy the generated policy and based it back under **Bucket Policy**
 <img width="817" alt="Screenshot 2022-09-22 at 14 08 36" src="https://user-images.githubusercontent.com/102330725/191755492-63cb7ac1-d892-47bb-b087-df695945fd7b.png">
 
-9. The policy 
+9. The policy is now Publicly accessible and the Object URL can we used to view the Object. 
 <img width="1246" alt="Screenshot 2022-09-22 at 14 10 36" src="https://user-images.githubusercontent.com/102330725/191755935-f01ff3d3-eb48-4939-adad-aa8b27fbfae8.png">
 <img width="997" alt="Screenshot 2022-09-22 at 14 12 24" src="https://user-images.githubusercontent.com/102330725/191756318-4e3598ad-6009-4d2b-85fc-117c484ea063.png">
