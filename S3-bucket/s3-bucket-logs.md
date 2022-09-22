@@ -10,3 +10,6 @@
 
 4. Click on **Enable** and in Target Bucket, add the newly created bucket name in which the logs are to be stored and **Save Changes**
 <img width="847" alt="Screenshot 2022-09-22 at 15 54 26" src="https://user-images.githubusercontent.com/102330725/191780846-8b54e248-9220-4fba-a335-610d06d51458.png">
+
+The logs generated are stored in the target bucket.
+<img width="956" alt="Screenshot 2022-09-22 at 16 19 41" src="https://user-images.githubusercontent.com/102330725/191786836-50c9e2b5-7ac9-4cd8-85f1-99fb7338a5d7.png">
