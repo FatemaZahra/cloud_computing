@@ -14,6 +14,38 @@
 
 ## Make S3 bucket public
 
-1. Under permissions go to **Block all public access**
+1. Under permissions go to **Block all public access** and click on **Edit**
 
 <img width="1025" alt="Screenshot 2022-09-22 at 12 41 03" src="https://user-images.githubusercontent.com/102330725/191737404-24c47a77-af87-4b78-ba5b-cd8049141f8b.png">
+
+2. Un-Check the box and **Save Changes**
+<img width="815" alt="Screenshot 2022-09-22 at 12 42 56" src="https://user-images.githubusercontent.com/102330725/191737758-39c3733d-222a-4e88-a5bb-adc3c9e1b22b.png">
+
+3. Click on **Edit** under **Bucket Policy**
+<img width="1271" alt="Screenshot 2022-09-22 at 13 54 41" src="https://user-images.githubusercontent.com/102330725/191752441-7fe93142-e2a1-40db-a1a3-a0157e476d13.png">
+
+4. Click on **Policy Generator** 
+<img width="1000" alt="Screenshot 2022-09-22 at 13 55 58" src="https://user-images.githubusercontent.com/102330725/191752783-3707211f-65e5-4c6a-a6af-3b6a64419a5b.png">
+
+5. Select **S3 Bucket Policy** as the Type of Policy
+<img width="1012" alt="Screenshot 2022-09-22 at 13 57 08" src="https://user-images.githubusercontent.com/102330725/191753020-bdf0eb60-f2fd-4e37-87f3-2a516b658872.png">
+
+6. In **Add Statement**, Under Principal--> Allow all **(*)**,
+   - Under Actions, Select **GetObject**
+
+<img width="919" alt="Screenshot 2022-09-22 at 13 59 31" src="https://user-images.githubusercontent.com/102330725/191753525-38b41c1c-474f-41d8-804f-afca6a729688.png">
+
+7. Add the bucket **ARN**, add a slash and asterik after the bucket name **(/*)**. 
+   - Once Done, Click on **Add Statement**
+
+<img width="906" alt="Screenshot 2022-09-22 at 14 03 51" src="https://user-images.githubusercontent.com/102330725/191754403-15ed3100-1a3d-428b-b98b-89a7ee9e4923.png">
+
+  - Click on **Generate Policy**
+<img width="994" alt="Screenshot 2022-09-22 at 14 05 11" src="https://user-images.githubusercontent.com/102330725/191754704-15d5b9c6-55eb-40bf-8d5b-fcbaa276136f.png">
+
+8. Copy the generated policy and based it back under **Bucket Policy**
+<img width="817" alt="Screenshot 2022-09-22 at 14 08 36" src="https://user-images.githubusercontent.com/102330725/191755492-63cb7ac1-d892-47bb-b087-df695945fd7b.png">
+
+9. The policy 
+<img width="1246" alt="Screenshot 2022-09-22 at 14 10 36" src="https://user-images.githubusercontent.com/102330725/191755935-f01ff3d3-eb48-4939-adad-aa8b27fbfae8.png">
+<img width="997" alt="Screenshot 2022-09-22 at 14 12 24" src="https://user-images.githubusercontent.com/102330725/191756318-4e3598ad-6009-4d2b-85fc-117c484ea063.png">
