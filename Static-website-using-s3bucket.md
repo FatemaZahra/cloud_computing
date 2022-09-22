@@ -11,5 +11,5 @@
 3. Click on **Enable** --> **Host a Static Website** and Provide the name of the **index.html** file. Then **Save Changes**
 <img width="832" alt="Screenshot 2022-09-22 at 14 46 05" src="https://user-images.githubusercontent.com/102330725/191764060-a1508016-f6c2-4c79-a0b7-68214f72c0f0.png">
 
-4. And, it's done!
+4. And, it's done! Use the URL to view the website.
 <img width="1289" alt="Screenshot 2022-09-22 at 14 48 12" src="https://user-images.githubusercontent.com/102330725/191764558-9bc36dff-f5e6-4d0c-8333-7752179d8936.png">
