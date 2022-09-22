@@ -11,3 +11,9 @@
 <img width="856" alt="Screenshot 2022-09-22 at 11 58 30" src="https://user-images.githubusercontent.com/102330725/191729489-bac628d0-96af-4a4b-a3ad-d2614f1c4602.png">
 <img width="1380" alt="Screenshot 2022-09-22 at 11 59 21" src="https://user-images.githubusercontent.com/102330725/191729663-e7612e0d-2b9e-4141-a2d7-6066e5db5c53.png">
 <img width="1380" alt="Screenshot 2022-09-22 at 12 02 44" src="https://user-images.githubusercontent.com/102330725/191730351-1fc6f654-9117-4784-a017-b38433bcfd88.png">
+
+## Make S3 bucket public
+
+1. Under permissions go to **Block all public access**
+
+<img width="1025" alt="Screenshot 2022-09-22 at 12 41 03" src="https://user-images.githubusercontent.com/102330725/191737404-24c47a77-af87-4b78-ba5b-cd8049141f8b.png">
