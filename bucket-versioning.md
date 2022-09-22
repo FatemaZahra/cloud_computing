@@ -5,3 +5,6 @@
 
 2. Click on **Enable** and **Save Changes**
 <img width="846" alt="Screenshot 2022-09-22 at 15 00 04" src="https://user-images.githubusercontent.com/102330725/191767483-6605a199-fac2-446d-9c20-c514c67cbc11.png">
+
+Now, after uploading another version of the same object, When we click on the object and go to **Versions** we can see the various versions of the same object.
+<img width="1001" alt="Screenshot 2022-09-22 at 15 04 55" src="https://user-images.githubusercontent.com/102330725/191768610-a5485bc6-4f30-4677-8c2f-c2b3e37a3fb0.png">
